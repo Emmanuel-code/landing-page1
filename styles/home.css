@@ -741,7 +741,6 @@ position: relative;
     height:50px;
 }
 .assurance__title>ul{
-    /* width:333px; */
     font-size: 20px;
     font-weight: border;
 }
@@ -751,7 +750,6 @@ position: relative;
 }
 .assurance__item{
     border-left: 2px solid black;
-    /* margin-left: 40px; */
     padding: 15px;
 margin-top: 20px;
 margin-bottom: 20px;
