@@ -1,0 +1,202 @@
+@media (max-width:960px) {
+nav>ul{
+    flex-direction: column;
+    display:none;
+}
+.toggle{
+/* position: absolute; */
+right: 0;
+padding: 5px;
+left: 286px;
+align-self: flex-end;
+}
+.open .mobile__nav{
+    display:flex;
+    flex-direction: column;
+
+}
+    .body__container{
+        width: 100%;
+    }
+    .body__container>h1{
+        font-size: 50px;
+
+    }
+    .phones>img{
+        width: 70%;
+        /* object-fit: contain; */
+        height: 78px;
+    }
+
+    /* ////////////////////////// */
+   .for_fun_section__container{
+       padding: 30px;
+       padding-top: 60px;
+   }
+    .for_fun_section__container>img{
+      display: none;  
+    }
+    .for_fun_section__width{
+        width: 100%;
+  
+    }
+    .for_fun_section__width>p{
+        line-height:20px;
+        font-size: 20px;
+    }
+    h2{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height:35px;
+    }
+    /* ////////////////////////////////// */
+.influencers__container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+.left__container{
+    width:100%;
+}
+.right__container{
+    width:100%;
+}
+.phone__width{
+    margin-left:-150px;
+        width: 100%;
+        padding-left: 160px;
+        height: 100%;
+        background: rgba(210, 250, 170, 0.855) url(../assets/Noise.png) no-repeat top center;;
+    }
+    /* /////////////////////////////////////// */
+.influencers2__container>img{
+    width: 200px;
+        /* object-fit: contain; */
+       padding-left: -250px;
+       height:480px;
+
+}
+/* //????? */
+.text__content>p{
+   padding-top: -50px;
+}
+.influencers2__container{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.inner__container{
+    color: white;
+    background-color: #363636;;
+     /* position: absolute; */
+padding-top:-10px;
+position: absolute;
+width: 349px;
+height: 280px;
+left: 19px;
+top: 121px;
+/* padding-left: 30px; */
+border-radius: 30px;
+/* padding-top: 40px; */
+}
+.buttons{
+    display: flex;
+        align-items: center;
+    width: 220px;
+    /* padding-left: 50px; */
+    
+}
+
+.influencers3__container{
+    top: -146px;
+    position: relative;
+}
+.influencers3__container{
+    display: flex;
+    flex-direction: column;
+}
+.influencers3__left>img{
+    height: 403px;
+    
+    object-fit: contain;
+}
+
+.influencers3__left{
+    width:100%;
+    align-items: center;
+    
+}
+.influencers3__right{
+    width: 100%;
+}
+/* //////////////////////////////////////////////// */
+.assurance{
+    width: 100%;
+    padding:30px;
+}
+.fans1__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.fans1__container>img{
+margin: 0;
+width: 100%;
+padding-left: auto;
+}
+.fan1__footer{
+/* margin-right: 30px; */
+width: 100%;
+}
+.fan1__footer>img{
+    width: 400px;
+
+    position: relative;
+    padding-top: 60px;
+}
+/* /////////////////////////////////// */
+.left__footer>form>input{
+    width:45%;
+    outline: none;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(22, 22, 22);
+}
+.left__footer>form>button{
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.footer__links{
+    display: flex; 
+    padding: 30px;
+}
+.h4{
+  font-weight: 500;
+  font-size: 14px;
+}
+.right__footer {
+    top: 120px;
+    padding: 20px;
+
+    position: relative;
+}
+.right__footer>img {
+    margin-right: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}

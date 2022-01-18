@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ear1</title>
     <link rel="stylesheet" type="text/css" href="../styles/home.css" />
+        <link rel="stylesheet" type="text/css" href="../styles/responsive-mobile.css" />
+
   </head>
+
   <style></style>
 
   <body>
@@ -21,6 +24,7 @@
             class="logo"
           /><span>ear1</span>
         </div>
+        
         <nav>
           <ul>
             <li>Home</li>
@@ -30,6 +34,16 @@
             <li>FAQ'S</li>
           </ul>
         </nav>
+        <div class="toggle" onclick="toggleNav(this)">
+          <i class="fa fa-bars">toggle</i>
+          <ul class='mobile__nav'>
+            <li>Home</li>
+            <li>For Fans</li>
+            <li>For influencers</li>
+            <li>Features</li>
+            <li>FAQ'S</li>
+          </ul>
+        </div>
       </div>
     </div>
     <main>
@@ -64,10 +78,9 @@
         </div>
       </section>
       <section class="for_fun_section1">
-        <div class="for_fun_section1__container">
-         
-            <div class="for_fun_section__right">
-              <h3>What can Ear1 help you do?</h3>
+        <div class="for_fun_section__container">
+            <div class="for_fun_section__width">
+              <h2>What can Ear1 help you do?</h2>
               <p>
                 Are you an individual looking to connect with an influencer
                 without the hassle of waiting for the reply over a long time, or
@@ -75,15 +88,13 @@
                 audience, Ear1 has got you covered.
               </p>
             </div>
-            
-              <img src="../assets/Combined Shape.png" alt="." />
-            
+              <img src="../assets/Combined Shape.png" alt="." /> 
           </div>
           </section>
           <section class="for_fun_section2">
-            <div class="for_fun_section2__container">
-              <div class="for_fun_section2__left">
-                <h3>Connect with top influencers in your field</h3>
+            <div class="for_fun_section__container">
+              <div class="for_fun_section__width">
+                <h2>Connect with top influencers in your field</h2>
                 <p>
                   From Tech to music to business, Ear1 has a wide range of
                   industry experts in diverse fields you have always wanted to
@@ -91,13 +102,12 @@
                 </p>
               </div>              
               <img src="../assets/Group 56.png" alt="." />
-
             </div>     
           </section>
         </div>
       </section>
       <section class="influencers">
-          <div class="icontainer">
+          <div class="influencers__container">
               <div class="left__container">
                 <button>Funs</button>
                 <h2>Be assured of replies</h2>
@@ -105,8 +115,6 @@
               </div>
               <div class="right__container">
                   <div class="phone__width">
-
-                  
                   <div class="chat__header">
                       <!-- backarrow -->  
                          <img src="../assets/Vector (3).png" alt="back"/>
@@ -117,7 +125,6 @@
                   </div>
                   <div class="chat__body">
                       <div class="chat">
-
                           <div class="reciever__chat">
                                 <!-- message -->
                           <p>Hey, Nice to meet you</p>
@@ -169,7 +176,7 @@
           <img src="../assets/Black Matte 2 (2).png"/>
           <div class="text__content">
             <button>Influencer</button>
-            <h3>Earn money while you chat</h3>
+            <h2>Earn money while you chat</h2>
             <p>As an influencer, you get paid by your audience to connect with them. That way to maximize time while earning. </p>
           </div>
         </div>
@@ -177,8 +184,18 @@
       <section class="influencers3">
         <div class="influencers3__container">
           <div class="influencers3__left">
-            <img src="../assets/Rectangle 43.png"/>
-
+            <div class="inner__container">
+              <div class="profile">
+                 <img src="../assets/Ellipse 12.png"/>
+                 <p>Femi Adekunle<span> has paid and requested
+to you</span></p>
+              </div>
+              <div class="buttons">
+                <button class="button1" >Decline</button>
+                <button class="button2">Accept</button>   
+                         </div>
+</div>
+<img src="../assets/Rectangle 43.png"/>
 
           </div>
            <div class="influencers3__right">
@@ -195,29 +212,29 @@
       <section class="fans1">
         <div class="fans1__container">
           <div class="assurance">
-<h3>The ear1 assurance</h3>
+              <h3>The ear1 assurance</h3>
 
-<div class="assurance__title">
-  <ul>
-    <li>Ease of Use</li>
-    
-  </ul>
-</div>
-<div class='assurance__item'>With as simple of 3 steps, you can get started using ear1.</div>
-<div class="assurance__title">
-  <ul>
-    <li>Multi currency support</li>
-    
-  </ul>
-</div>
-<div class='assurance__item'>Ear1 allows you to pay with a wide range of currencies.</div>
-<div class="assurance__title">
-  <ul>
-    <li>Secure communication</li>
-    
-  </ul>
-</div>
-<div class='assurance__item'>State of the art end to end encryption of messages. No weird sort of tracking. Your privacy is our concern.</div>
+                  <div class="assurance__title">
+                    <ul>
+                      <li>Ease of Use</li>
+                      
+                    </ul>
+                  </div>
+                  <div class='assurance__item'>With as simple of 3 steps, you can get started using ear1.</div>
+                  <div class="assurance__title">
+                    <ul>
+                      <li>Multi currency support</li>
+                      
+                    </ul>
+                  </div>
+                  <div class='assurance__item'>Ear1 allows you to pay with a wide range of currencies.</div>
+                  <div class="assurance__title">
+                    <ul>
+                      <li>Secure communication</li>
+                      
+                    </ul>
+                  </div>
+                  <div class='assurance__item'>State of the art end to end encryption of messages. No weird sort of tracking. Your privacy is our concern.</div>
 
           </div>
           <img src="../assets/Black Matte 4 1.png"/>
@@ -270,25 +287,25 @@
             </form>
             <div class="footer__links">
               <div class="links">
-              <h3>Links</h3>
+              <h4>Links</h4>
                   <p>Home</p>
                   <p>For funs</p>
                   <p>For Influencers</p>
                   <p>FAQ's</p>
               </div>
               <div class="help">
-              <h3>Get Help</h3>                
+              <h4>Get Help</h4>                
                   <p>Support</p>
                   <p>FAQ's</p>
                   <p>Partnership</p>
               </div>
               <div class="download">
-              <h3>Download</h3>
+              <h5>Download</h4>
                   <p>Android</p>
                   <p>IOS</p>
               </div>
               <div class="resourses">
-              <h3>Resources</h3>              
+              <h4>Resources</h4>              
                   <p>Terms of Service</p>
                   <p>Privacy policy</p>
               </div>
@@ -297,5 +314,10 @@
         </div>
       </section>
     </main>
+    <script>
+  function toggleNav(menu) {
+    menu.classList.toggle('open')
+   }
+</script>
   </body>
 </html>
